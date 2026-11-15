@@ -2,7 +2,7 @@
 export default function Footer() {
   try {
     // Current year automatically show karne ke liye
-    const currentYear = new Date().getFullYear();
+    // const currentYear = new Date().getFullYear();
 
     return (
       <footer className="bg-black text-white">
@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-6 text-center text-sm text-gray-500 md:flex-row md:text-left">
             
             <p>
-              © {currentYear} MKD Pathshala. All rights reserved.
+              © 2026 MKD Pathshala. All rights reserved.
             </p>
 
             <p>
